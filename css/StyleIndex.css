@@ -1,0 +1,41 @@
+div#haut {
+  background-color: white;
+  width: 1400px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+#menu0{
+display: block;
+background-color: yellow;
+width: 1400px;
+height: 100px;
+margin: 0;
+}
+
+#menu1{
+display: none;
+background-color: yellow;
+width: 1400px;
+height: 100px;
+margin: auto;
+}
+
+#haut:hover > #menu0 {
+  display: none;
+}
+
+#haut:hover > #menu1 {
+  display: block;
+}
+
+
+
+div#corp {
+  background-color: green;
+  width: 1400px;
+  height: 400px;
+  margin: auto;
+}
+
