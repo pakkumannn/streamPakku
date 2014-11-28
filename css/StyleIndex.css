@@ -1,41 +1,169 @@
 div#haut {
   background-color: white;
   width: 1400px;
-  height: 100px;
+  height: 50px;
   margin: auto;
   text-align: center;
+  border-width:0px;
+  border-style:solid;
+  border-color:black;
 }
 
+/* afficher des different menu du haut */
+/* MENU PRINCIPAL SANS RECHERCHE*/
 #menu0{
-display: block;
-background-color: yellow;
-width: 1400px;
-height: 100px;
-margin: 0;
+  display: block;
+  background-color: white;
+  width: 65%;
+  height: 40px;
+  margin-left: 220px; 
+  border-radius: 10px;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+
+}
+#titre {
+  padding-top: 10px;  
 }
 
+/* MENU PRINCIPAL AVEC RECHERCHE*/
 #menu1{
-display: none;
-background-color: yellow;
-width: 1400px;
-height: 100px;
-margin: auto;
+  display: none;
+  background-color: #F1F7F6;
+  width: 70%;
+  height: 40px;
+  margin: auto;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+  border-bottom: solid 1px black;
+  border-radius: 10px;
 }
 
+/* lors du passage de la souris le menu0 disparait et le menu1 apparait */
 #haut:hover > #menu0 {
   display: none;
 }
-
 #haut:hover > #menu1 {
+  display: block;
+}
+
+/* CONTENU DU MENU1 */
+/* recherche par nom */
+#recherche {
+float: left; 
+border: 1px;
+height:30px;
+padding-top: 10px;
+margin-left: 90px;
+}
+
+#bouton {
+  float: left; 
+  border: 1px;
+  height: 30px;
+  padding-top: 5px;
+  margin-left: 10px;  
+}
+#boutonR {
+  padding-top: 5px;
+  float: left;
+  font-family: Arial,sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  color: black;
+  background: #007536;
+  border-radius: 8px;
+  background: -webkit-linear-gradient( #E3E8E6, #E3E8E6);
+  background:    -moz-linear-gradient( #E3E8E6, #E3E8E6);
+  background:     -ms-linear-gradient( #E3E8E6, #E3E8E6);
+  background:      -o-linear-gradient( #E3E8E6, #E3E8E6);
+  background:         linear-gradient( #E3E8E6, #E3E8E6);
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+}
+#boutonR:active {
+  float: left;
+  font-family: Arial,sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  color: black;
+  background: #007536;
+  border-radius: 8px;
+  background: -webkit-linear-gradient( #B7B7B7, #B7B7B7);
+  background:    -moz-linear-gradient( #B7B7B7, #B7B7B7);
+  background:     -ms-linear-gradient( #B7B7B7, #B7B7B7);
+  background:      -o-linear-gradient( #B7B7B7, #B7B7B7);
+  background:         linear-gradient( #B7B7B7, #B7B7B7);
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+  box-shadow: 1px 1px 10px black inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+/*recherche par genre*/
+#genre {
+  padding-left: 10px;
+  float: left;
+  width: 200px;
+  min-height: 30px;
+  padding-top: 10px;
+}
+#genre ul {
+  display: none;
+}
+#genre:hover >  ul {
+  display: block;
+}
+
+/*recherche par note*/
+#note {
+  padding-left: 10px;
+  float: left;
+  width: 200px;
+  min-height: 30px;
+  padding-top: 10px;
+}
+#note ul {
+  display: none;
+}
+
+#note:hover >  ul {
   display: block;
 }
 
 
 
-div#corp {
+
+
+#corp {
   background-color: green;
   width: 1400px;
-  height: 400px;
+  height: auto;
+}
+.ligne{
+  width: 1400px;
+  height: 310px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   margin: auto;
 }
-
+.image{
+  margin-left: 55px;
+  margin-top: 5px;
+  float: left;
+  width: 200px;
+  height: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}

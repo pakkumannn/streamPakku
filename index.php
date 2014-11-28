@@ -10,16 +10,75 @@
   <!-- en-tête de la page -->
   <div id="haut">
     <!-- Affichge du menu par defaut titre de la page. Celui-ci disparait lors du passage de la souris-->
+    
     <div id="menu0"> 
-      TITRE APPLI 
+      <div id="titre">
+        TITRE APPLI 
+      </div>  
     </div>
+    
     <!--Affichage du menu de recherche. Celui-ci s'affiche lors du passage de la souris -->
     <div id="menu1">
-      
+      <!-- Recherche par le nom -->
+      <div id="recherche">
+        Recherche par nom : <INPUT type="text" name="Nom de l'élément">
+      </div>
+       <!-- bouton de recherche --> 
+      <div id="bouton">
+       <div id="boutonR" onclick="self.location.href='recherche.php'">
+        OK
+       </div>
+      </div> 
+        
+      <!-- recherche par genre -->
+      <div id="genre">
+       Genre
+       <ul>
+        <li> thriller </li>
+        <li> action </li>
+        <li> comédie </li>
+        <li> comique </li>
+        <li> anime </li>
+        <li> commédie - romantique </li>
+        <li> drame </li>
+        <li> western </li>
+       </ul>
+      </div> 
+      <div id="note">
+        Note
+       <ul>
+        <li> à chier </li>
+        <li> moyen </li>
+        <li> pas mal </li>
+        <li> bon </li>
+        <li> très bon </li>
+        <li> exellent </li>
+       </ul>
+      </div>  
     </div>
     
 </div>
-  <div id=corp>
+  <div id="corp">
+    <div class="ligne">
+      
+      <div class="image">
+      </div>
+      
+      <div class="image">
+      </div>
+      
+      <div class="image">
+      </div>
+      
+      <div class="image">
+      </div>
+      
+      <div class="image">
+      </div>
+      
+    </div>
+    
+    
   </div>
 
 </body>
