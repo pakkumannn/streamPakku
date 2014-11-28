@@ -116,9 +116,15 @@ margin-left: 90px;
   width: 200px;
   min-height: 30px;
   padding-top: 10px;
+  margin-left: 480px;
+  position: absolute;
+  z-index: 1000;
+  text-align: left;
+  background-color: #F1F7F6;
 }
 #genre ul {
   display: none;
+  
 }
 #genre:hover >  ul {
   display: block;
@@ -131,6 +137,11 @@ margin-left: 90px;
   width: 200px;
   min-height: 30px;
   padding-top: 10px;
+  margin-left: 700px;
+  position: absolute;
+  z-index: 1000;
+  text-align: left;
+  background-color: #F1F7F6;
 }
 #note ul {
   display: none;
