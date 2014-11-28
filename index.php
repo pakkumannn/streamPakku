@@ -82,8 +82,23 @@
       </div>
       
     </div>
-    <div class="ligne">
+    <div class="ligne1">
         
+        <div class="nom">
+        </div> 
+        
+        <div class="nom">
+        </div> 
+        
+        <div class="nom">
+        </div> 
+
+        <div class="nom">
+        </div> 
+        
+        <div class="nom">
+        </div> 
+
     </div>
   </div>
 
