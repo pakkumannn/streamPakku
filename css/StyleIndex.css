@@ -16,7 +16,7 @@ div#haut {
   background-color: white;
   width: 65%;
   height: 40px;
-  margin-left: 220px; 
+  margin-left: 230px; 
   border-radius: 10px;
   border-width:1px;
   border-style:solid;
@@ -148,6 +148,7 @@ margin-left: 90px;
   background-color: green;
   width: 1400px;
   height: auto;
+  margin:auto;
 }
 .ligne{
   width: 1400px;
@@ -158,7 +159,7 @@ margin-left: 90px;
   margin: auto;
 }
 .image{
-  margin-left: 55px;
+  margin-left: 65px;
   margin-top: 5px;
   float: left;
   width: 200px;

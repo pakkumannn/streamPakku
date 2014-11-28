@@ -62,23 +62,29 @@
     <div class="ligne">
       
       <div class="image">
+        <img src="image/sample.jpg" alt="nom du film" />
       </div>
       
       <div class="image">
+        <img src="image/sample.jpg" alt="nom du film" />
       </div>
       
       <div class="image">
+        <img src="image/sample.jpg" alt="nom du film" />
       </div>
       
       <div class="image">
+        <img src="image/sample.jpg" alt="nom du film" />
       </div>
       
       <div class="image">
+        <img src="image/sample.jpg" alt="nom du film" />
       </div>
       
     </div>
-    
-    
+    <div class="ligne">
+        
+    </div>
   </div>
 
 </body>
